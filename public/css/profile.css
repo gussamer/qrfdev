@@ -1,0 +1,199 @@
+@font-face {
+  font-family: 'opsduty'; /*a name to be used later*/
+  src: url('../fonts/opsduty.otf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'expletus'; /*a name to be used later*/
+  src: url('../fonts/ExpletusSans-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'opsone'; /*a name to be used later*/
+  src: url('../fonts/BlackOpsOne-Regular.ttf'); /*URL to font*/
+}
+
+@font-face {
+  font-family: 'wreckers'; /*a name to be used later*/
+  src: url('../fonts/Wreckers.ttf'); /*URL to font*/
+}
+
+/*!
+ * Start Bootstrap - Scrolling Nav HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+  
+
+  .btn-warning {
+    background: rgba(230, 61, 0, 0.6);
+  }
+ 
+  .btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning>a:visited {
+    background: #000000;
+  }
+  
+  .navbar{
+    color: #ffffff;
+    background: rgba(0,0,0,0.75);
+  }
+
+  .navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    background: rgba(230, 61, 0, 0.5);
+  }
+
+  @media screen and (min-width:767px) {
+    .navbar {
+      padding: 1px 0;
+      -o-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .top-nav-collapse {
+      padding: 0;
+    }
+  }
+ 
+  @media screen and (max-width:1024px){
+    body {
+      width: 100%;
+    }
+
+    html {
+      width: 100%;
+    }
+    
+    .btn-intro{
+      margin-top 1em;
+    }
+  }
+
+  @media screen and (min-width:1024px){
+      body {
+        width: 100%;
+        height: 100%;
+      }
+
+      html {
+        width: 100%;
+        height: 100%;
+      }
+    
+      .btn-intro{
+        margin-top: 2em;
+      }
+
+      .intro-section{
+        height: 95%;
+      }
+
+      .dossier-section{
+        height: 95%; 
+      }
+
+      .profilepic{
+        
+      }
+
+      .victories-section{
+        height: 95%;
+      }
+
+      .contact-section{
+        height: 95%;
+      }
+  }
+
+  h1{
+    font-size: 350%;
+    color: #e63d00;
+    text-shadow: 4px 4px 2px #000000;
+    font-family: 'opsone';
+    //background-color:rgba(50,50,50,0.75);
+  }
+
+  h2{
+    font-size: 300%;
+    color: #e63d00;
+    text-shadow: 4px 4px 2px #000000;
+    font-family: 'wreckers';
+    //background-color:rgba(50,50,50,0.75);
+  }
+
+  h3{
+    font-size: 200%;
+    color: #e63d00;
+    text-shadow: 3px 3px 1px #000000;
+    font-family: 'wreckers';
+  }
+
+  i{
+    margin: 0.5% 0.5% 0.5% 0.5%;
+  }
+
+  .intro-section {
+    padding-top: 50px;
+    text-align: center;
+    background: url(../assets/img/intro1600.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .dossier-section {
+    padding-top: 50px;
+    text-align: center;
+    background: url(../assets/img/about1600.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .victories-section {
+    padding-top: 50px;
+    text-align: center;
+    background: url(../assets/img/portfolio1600.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .contact-section {
+    padding-top: 50px;
+    text-align: center;
+    background: url(../assets/img/contact1600.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+  .row-top{
+    
+  }
+
+  .row-mid{
+    
+  }
+
+  .row-bot{
+    
+  }
+
+  .profilepic{
+    width: 80%;
+    display: none;
+    position: absolute;
+    border-radius: 200px;
+  }
+
+  .profilethumb{
+    width: 30%;
+    border-radius: 200px;
+  }
