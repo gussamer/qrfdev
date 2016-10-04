@@ -1,0 +1,30 @@
+{
+  "name": "qrfdev",
+  "version": "1.0.0",
+  "description": "A profile page for Quick Reactionary Force Developers",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gussamer/qrfdev.git"
+  },
+  "keywords": [
+    "profile",
+    "qrfdev"
+  ],
+  "author": "Angus Alves",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gussamer/qrfdev/issues"
+  },
+  "homepage": "https://github.com/gussamer/qrfdev#readme",
+  "engines": {
+    "node": "^4.4.5"
+  },
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
