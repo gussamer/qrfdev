@@ -32,6 +32,7 @@ $(function(){
     });
 });
 
+
 $(".profilethumb").mouseenter(function(){
   $(".profilethumb").addClass('thumbhover');
 });
@@ -55,4 +56,3 @@ $(".profilepic").mouseout(function(){
 $(".error-shake").click(function(e){
   $(this).addClass("animated shake");
 });
-

@@ -49,7 +49,7 @@
     }
 }
 
-@media screen and (max-width:768px){
+@media screen and (max-width:600px){
     body {
         width: 100%;
         height: 100%;
@@ -67,29 +67,30 @@
   
     h1{
         padding: 0;
+        margin-top: 5%;
         font-size: 200%;
         color: #e63d00;
-        text-shadow: 4px 4px 2px #000000;
+        text-shadow: 3px 3px 1px #000000;
         font-family: 'opsone';
         /*background-color:rgba(50,50,50,0.75);*/
     }
     
     h2{
         padding: 0;
-        font-size: 150%;
+        font-size: 175%;
         color: #e63d00;
-        text-shadow: 4px 4px 2px #000000;
+        text-shadow: 3px 3px 1px #000000;
         font-family: 'wreckers';
         /*background-color:rgba(50,50,50,0.75);*/
     }
     
     h3{
         padding: 0;
-        font-size: 100%;
+        margin: 0 0 12% 0;
+        font-size: 150%;
         color: #e63d00;
-        text-shadow: 3px 3px 1px #000000;
+        text-shadow: 2px 2px 1px #000000;
         font-family: 'wreckers';
-        padding: 1px;
         text-align: left;
     }
     
@@ -97,9 +98,14 @@
         margin: 0.5% 0.5% 0.5% 0.5%;
     }
     
+    .well{
+        background-color:rgba(0,0,0,0);
+        border: 0;
+    }
+    
     .intro-section{
         height: 95%;
-        padding-top: 10%;
+        padding-top: 5%;
         text-align: center;
         background: url(../assets/img/intro1600.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -110,9 +116,9 @@
     
     .dossier-section {
         height: 95%; 
-        padding-top: 10%;
+        padding-top: 5%;
         text-align: center;
-        background: url(../assets/img/about1600.jpg) no-repeat center center fixed;
+        background: url(../assets/img/about1600crop.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -121,7 +127,7 @@
     
     .victories-section {
         height: 95%;
-        padding-top: 10%;
+        padding-top: 5%;
         text-align: center;
         background: url(../assets/img/portfolio1600.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -132,7 +138,7 @@
     
     .contact-section {
         height: 95%;
-        padding-top: 10%;
+        padding-top: 5%;
         text-align: center;
         background: url(../assets/img/contact1600.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -142,17 +148,19 @@
     }
     
     .profilepic{
-        width: 50%;
+        width: 90%;
         margin: auto;
         display: none;
         position: fixed;
-        left: 0;
-        top: 0;
+        right: 5%;
+        top: 5%;
         z-index: 10000;
         border-radius: 400px;
     }
     
     .profilethumb{
+        max-width: 200px;
+        margin-top: 0;
         margin-left: 20%;
         margin-right: 20%;
         width: 60%;
@@ -160,6 +168,7 @@
     }
     
     .thumbhover{
+        max-width: 260px;
         margin-top: -10%;
         margin-left: 10%;
         margin-right: 10%;
@@ -167,7 +176,134 @@
     }
 }
 
-@media screen and (min-width:768px){
+@media only screen and (min-width:601px) and (max-width:991px){
+    body {
+        width: 100%;
+        height: 100%;
+    }
+    
+    html {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .btn-intro{
+        margin-top: 0.5em;
+        display: block;
+    }
+  
+    h1{
+        margin-top: 10%;
+        padding: 0;
+        font-size: 200%;
+        color: #e63d00;
+        text-shadow: 3px 3px 1px #000000;
+        font-family: 'opsone';
+        /*background-color:rgba(50,50,50,0.75);*/
+    }
+    
+    h2{
+        padding: 0;
+        font-size: 175%;
+        color: #e63d00;
+        text-shadow: 3px 3px 1px #000000;
+        font-family: 'wreckers';
+        /*background-color:rgba(50,50,50,0.75);*/
+    }
+    
+    h3{
+        padding: 0;
+        margin: 0 0 10% 0;
+        font-size: 150%;
+        color: #e63d00;
+        text-shadow: 2px 2px 1px #000000;
+        font-family: 'wreckers';
+        text-align: left;
+    }
+    
+    i{
+        margin: 0.5% 0.5% 0.5% 0.5%;
+    }
+    
+    .well{
+        background-color:rgba(0,0,0,0);
+        border: 0;
+    }
+    
+    .intro-section{
+        height: 100%;
+        padding-top: 4%;
+        text-align: center;
+        background: url(../assets/img/intro1600.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .dossier-section {
+        height: 100%; 
+        padding-top: 4%;
+        text-align: center;
+        background: url(../assets/img/about1600crop.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .victories-section {
+        height: 100%;
+        padding-top: 4%;
+        text-align: center;
+        background: url(../assets/img/portfolio1600.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .contact-section {
+        height: 100%;
+        padding-top: 4%;
+        text-align: center;
+        background: url(../assets/img/contact1600.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .profilepic{
+        width: 60%;
+        margin: auto;
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 10000;
+        border-radius: 400px;
+    }
+    
+    .profilethumb{
+        max-width: 100px;
+        margin-top: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 60%;
+        border-radius: 200px;
+    }
+    
+    .thumbhover{
+        max-width: 150px;
+        margin-top: -5%;
+        margin-left: 10%;
+        margin-right: 10%;
+        width: 80%;
+    }
+}
+
+@media screen and (min-width:992px){
     body {
         width: 100%;
         height: 100%;
@@ -180,10 +316,12 @@
     
     .btn-intro{
         margin-top: 1em;
+        display: block;
     }
   
     h1{
-        font-size: 350%;
+        margin-top: 10%;
+        font-size: 300%;
         color: #e63d00;
         text-shadow: 4px 4px 2px #000000;
         font-family: 'opsone';
@@ -191,7 +329,7 @@
     }
     
     h2{
-        font-size: 300%;
+        font-size: 250%;
         color: #e63d00;
         text-shadow: 4px 4px 2px #000000;
         font-family: 'wreckers';
@@ -199,7 +337,7 @@
     }
     
     h3{
-        font-size: 150%;
+        font-size: 200%;
         color: #e63d00;
         text-shadow: 3px 3px 1px #000000;
         font-family: 'wreckers';
@@ -211,9 +349,14 @@
         margin: 0.5% 0.5% 0.5% 0.5%;
     }
     
+    .well{
+        background-color:rgba(0,0,0,0);
+        border: 0;
+    }
+    
     .intro-section{
-        height: 96%;
-        padding-top: 4%;
+        height: 100%;
+        padding-top: 2%;
         text-align: center;
         background: url(../assets/img/intro1600.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -223,8 +366,8 @@
     }
     
     .dossier-section {
-        height: 96%; 
-        padding-top: 4%;
+        height: 100%; 
+        padding-top: 2%;
         text-align: center;
         background: url(../assets/img/about1600.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -234,8 +377,8 @@
     }
     
     .victories-section {
-        height: 96%;
-        padding-top: 4%;
+        height: 100%;
+        padding-top: 2%;
         text-align: center;
         background: url(../assets/img/portfolio1600.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -245,8 +388,8 @@
     }
     
     .contact-section {
-        height: 96%;
-        padding-top: 4%;
+        height: 100%;
+        padding-top: 2%;
         text-align: center;
         background: url(../assets/img/contact1600.jpg) no-repeat center center fixed;
         -webkit-background-size: cover;
@@ -260,13 +403,15 @@
         margin: auto;
         display: none;
         position: fixed;
-        left: 0;
+        right: 0;
         top: 0;
         z-index: 10000;
         border-radius: 400px;
     }
     
     .profilethumb{
+        max-width: 150px;
+        margin-top: -10%;
         margin-left: 20%;
         margin-right: 20%;
         width: 60%;
@@ -274,7 +419,8 @@
     }
     
     .thumbhover{
-        margin-top: -10%;
+        max-width: 200px;
+        margin-top: -20%;
         margin-left: 10%;
         margin-right: 10%;
         width: 80%;
