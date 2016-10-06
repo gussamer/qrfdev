@@ -32,7 +32,6 @@ $(function(){
     });
 });
 
-
 $(".profilethumb").mouseenter(function(){
   $(".profilethumb").addClass('thumbhover');
 });
