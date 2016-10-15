@@ -1,6 +1,6 @@
 <html>
 <head>
-    <meta charset="utf-8">
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Quick Reactionary Force Developers Profile Page">
@@ -152,8 +152,25 @@
                 </div>
             </div>
             <div class="row row-mid">
-                <div class="col-md-12">
-
+                <div class="col-md-12 center">
+                    <div class="weblead">
+                        <form action="https://www.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+                            <div class="form-group">
+                                <input type="hidden" name="oid" value="00D61000000dmtt"/>
+                                <input type="hidden" name="retURL" value="http://qrfdev.heroku.com"/>
+                                <input type="hidden" name="lead_source" value="qrfdev.heroku.com">
+                                <label class="sr-only" for="first_name">First Name</label>
+                                <input class="form-control" id="first_name" maxlength="40" name="first_name" size="20" type="text" placeholder="First Name" />
+                                <label class="sr-only" for="last_name">Last Name</label>
+                                <input class="form-control" id="last_name" maxlength="80" name="last_name" size="20" type="text" placeholder="Last Name" />
+                                <label class="sr-only" for="email">Email</label>
+                                <input class="form-control" id="email" maxlength="80" name="email" size="20" type="text" placeholder="Email" />
+                                <label class="sr-only" for="company">Company</label>
+                                <input class="form-control" id="company" maxlength="40" name="company" size="20" type="text" placeholder="Company" />
+                                <input class="btn btn-warning" type="submit" name="submit">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
             <div class="row row-bot">
