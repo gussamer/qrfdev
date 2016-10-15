@@ -1,1 +1,2 @@
-# qrfdev\nA profile page for Quick Reactionary Force Developers\n
+# qrfdev
+A profile page for Quick Reactionary Force Developers
