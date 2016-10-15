@@ -39,7 +39,7 @@ $(".profilethumb").mouseenter(function(){
 $(".profilethumb").mouseout(function(){
   $(".profilethumb").removeClass('thumbhover');
 });
-
+/*
 $(".profilethumb").click(function(){
   $(".profilepic").show({"duration":400});
 });
@@ -51,7 +51,7 @@ $(".profilepic").click(function(){
 $(".profilepic").mouseout(function(){
   $(".profilepic").hide({"duration":400});
 });
-
+*/
 $(".error-shake").click(function(e){
   $(this).addClass("animated shake");
 });
