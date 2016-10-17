@@ -160,11 +160,6 @@ input:-ms-input-autofill{
 }
 
 @media screen and (max-width:600px) and (orientation: portrait){
-    
-    .btn-intro{
-        margin-top: 0.5em;
-        display: block;
-    }
   
     h1{
         padding: 0;
@@ -190,6 +185,59 @@ input:-ms-input-autofill{
         margin: 0.5% 0.5% 0.5% 0.5%;
     }
     
+    .intro-section{
+        height: 95%;
+        padding-top: 5%;
+    }
+    
+    .dossier-section {
+        height: 95%; 
+        padding-top: 5%;
+    }
+    
+    .victories-section {
+        height: 95%;
+        padding-top: 5%;
+    }
+    
+    .contact-section {
+        height: 95%;
+        padding-top: 5%;
+    }
+    
+    .btn-intro{
+        margin-top: 0.5em;
+        display: block;
+    }
+    
+    .profilepic{
+        width: 90%;
+        margin: auto;
+        display: none;
+        position: fixed;
+        right: 5%;
+        top: 5%;
+        z-index: 10000;
+        border-radius: 400px;
+    }
+    
+    .profilethumb{
+        width: 60%;
+        margin-top: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 200px;
+        max-width: 75px;
+    }
+    
+    .thumbhover{
+        width: 90%;
+        margin-top: -15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 300px;
+    }
+    
     .box{
         display: none;
         width: 70%;
@@ -221,54 +269,6 @@ input:-ms-input-autofill{
         border-radius: 50px;
     }
     
-    .intro-section{
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .dossier-section {
-        height: 95%; 
-        padding-top: 5%;
-    }
-    
-    .victories-section {
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .contact-section {
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .profilepic{
-        width: 90%;
-        margin: auto;
-        display: none;
-        position: fixed;
-        right: 5%;
-        top: 5%;
-        z-index: 10000;
-        border-radius: 400px;
-    }
-    
-    .profilethumb{
-        width: 60%;
-        margin-top: 0;
-        margin-left: 20%;
-        margin-right: 20%;
-        border-radius: 200px;
-        max-width: 50px;
-    }
-    
-    .thumbhover{
-        width: 80%;
-        margin-top: -10%;
-        margin-left: 10%;
-        margin-right: 10%;
-        max-width: 260px;
-    }
-    
     .weblead{
         width: 90%;
         margin: auto;
@@ -277,11 +277,6 @@ input:-ms-input-autofill{
 
 @media screen and (max-width:600px) and (orientation: landscape){
     
-    .btn-intro{
-        margin-top: 0.5em;
-        display: block;
-    }
-  
     h1{
         padding: 0;
         margin-top: 10%;
@@ -304,37 +299,6 @@ input:-ms-input-autofill{
         margin: 0.5% 0.5% 0.5% 0.5%;
     }
     
-    .box{
-        display: none;
-        width: 70%;
-        margin-top: 5%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    
-    .preview{
-        display: block;
-        margin-top: 0.5em;
-    }
-    
-    .preview:hover + .box,.box:hover{
-        display: block;
-        position: fixed;
-        top: 0;
-        left: 15%;
-        z-index: 10000;
-    }
-    
-    .frame{
-        width: 100%;
-        height: 50%;
-        padding: 0;
-        margin: 0;
-        border: 0;
-        background-color:rgb(255,255,255);
-        border-radius: 50px;
-    }
-    
     .intro-section{
         height: 95%;
         padding-top: 5%;
@@ -355,6 +319,11 @@ input:-ms-input-autofill{
         padding-top: 5%;
     }
     
+    .btn-intro{
+        margin-top: 0.5em;
+        display: block;
+    }
+    
     .profilepic{
         width: 90%;
         margin: auto;
@@ -372,15 +341,46 @@ input:-ms-input-autofill{
         margin-left: 20%;
         margin-right: 20%;
         border-radius: 200px;
-        max-width: 50px;
+        max-width: 75px;
     }
     
     .thumbhover{
-        width: 80%;
-        margin-top: -10%;
-        margin-left: 10%;
-        margin-right: 10%;
-        max-width: 260px;
+        width: 90%;
+        margin-top: -15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 300px;
+    }
+    
+    .box{
+        display: none;
+        width: 70%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .preview{
+        display: block;
+        margin-top: 0.5em;
+    }
+    
+    .preview:hover + .box,.box:hover{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 15%;
+        z-index: 10000;
+    }
+    
+    .frame{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background-color:rgb(255,255,255);
+        border-radius: 50px;
     }
     
     .weblead{
@@ -390,11 +390,6 @@ input:-ms-input-autofill{
 }
 
 @media only screen and (min-width:601px) and (max-width:991px) and (orientation: portrait){
-    
-    .btn-intro{
-        margin-top: 0.5em;
-        display: block;
-    }
   
     h1{
         margin-top: 10%;
@@ -416,6 +411,60 @@ input:-ms-input-autofill{
     
     i{
         margin: 0.5% 0.5% 0.5% 0.5%;
+    }
+    
+    .intro-section{
+        height: 100%;
+        padding-top: 4%;
+    }
+    
+    .dossier-section {
+        height: 100%; 
+        padding-top: 4%;
+    }
+    
+    .victories-section {
+        height: 100%;
+        padding-top: 4%;
+    }
+    
+    .contact-section {
+        height: 100%;
+        padding-top: 4%;
+    }
+    
+    .btn-intro{
+        margin-top: 0.5em;
+        display: block;
+    }
+    
+    .profilepic{
+        width: 60%;
+        margin: auto;
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 10000;
+        border-radius: 400px;
+    }
+    
+    .profilethumb{
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 200px;
+        max-width: 75px;
+    }
+    
+    .thumbhover{
+        width: 100%;
+        margin-top: -15%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 300px;
     }
     
     .box{
@@ -447,54 +496,6 @@ input:-ms-input-autofill{
         border: 0;
         background-color:rgb(255,255,255);
         border-radius: 50px;
-    }
-    
-    .intro-section{
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .dossier-section {
-        height: 100%; 
-        padding-top: 4%;
-    }
-    
-    .victories-section {
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .contact-section {
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .profilepic{
-        width: 60%;
-        margin: auto;
-        display: none;
-        position: fixed;
-        right: 0;
-        top: 0;
-        z-index: 10000;
-        border-radius: 400px;
-    }
-    
-    .profilethumb{
-        width: 60%;
-        margin-top: 0;
-        margin-left: 20%;
-        margin-right: 20%;
-        border-radius: 200px;
-        max-width: 75px;
-    }
-    
-    .thumbhover{
-        width: 90%;
-        margin-top: -10%;
-        margin-left: 5%;
-        margin-right: 5%;
-        max-width: 260px;
     }
     
     .weblead{
@@ -504,11 +505,6 @@ input:-ms-input-autofill{
 }
 
 @media only screen and (min-width:601px) and (max-width:991px) and (orientation: landscape){
-    
-    .btn-intro{
-        margin-top: 0.5em;
-        display: block;
-    }
   
     h1{
         margin-top: 10%;
@@ -530,6 +526,60 @@ input:-ms-input-autofill{
     
     i{
         margin: 0.5% 0.5% 0.5% 0.5%;
+    }
+    
+    .intro-section{
+        height: 100%;
+        padding-top: 4%;
+    }
+    
+    .dossier-section {
+        height: 100%; 
+        padding-top: 4%;
+    }
+    
+    .victories-section {
+        height: 100%;
+        padding-top: 4%;
+    }
+    
+    .contact-section {
+        height: 100%;
+        padding-top: 4%;
+    }
+    
+    .btn-intro{
+        margin-top: 0.5em;
+        display: block;
+    }
+    
+    .profilepic{
+        width: 60%;
+        margin: auto;
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 10000;
+        border-radius: 400px;
+    }
+    
+    .profilethumb{
+        width: 60%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 200px;
+        max-width: 100px;
+    }
+    
+    .thumbhover{
+        width: 100%;
+        margin-top: -15%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 300px;
     }
     
     .box{
@@ -563,28 +613,58 @@ input:-ms-input-autofill{
         border-radius: 50px;
     }
     
+    .weblead{
+        width: 75%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:992px) and (orientation: portrait){
+  
+    h1{
+        margin-top: 10%;
+        font-size: 250%;
+    }
+    
+    h2{
+        font-size: 200%;
+    }
+    
+    h3{
+        font-size: 175%;
+    }
+    
+    i{
+        margin: 0.5% 0.5% 0.5% 0.5%;
+    }
+    
     .intro-section{
         height: 100%;
-        padding-top: 4%;
+        padding-top: 2%;
     }
     
     .dossier-section {
         height: 100%; 
-        padding-top: 4%;
+        padding-top: 2%;
     }
     
     .victories-section {
         height: 100%;
-        padding-top: 4%;
+        padding-top: 2%;
     }
     
     .contact-section {
         height: 100%;
-        padding-top: 4%;
+        padding-top: 2%;
+    }
+    
+    .btn-intro{
+        margin-top: 1em;
+        display: block;
     }
     
     .profilepic{
-        width: 60%;
+        width: 50%;
         margin: auto;
         display: none;
         position: fixed;
@@ -595,50 +675,21 @@ input:-ms-input-autofill{
     }
     
     .profilethumb{
-        width: 60%;
+        width: 80%;
         margin-top: 0;
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-bottom: 0;
+        margin-left: 10%;
+        margin-right: 10%;
         border-radius: 200px;
-        max-width: 75px;
+        max-width: 200px;
     }
     
     .thumbhover{
-        width: 90%;
-        margin-top: -10%;
-        margin-left: 5%;
-        margin-right: 5%;
-        max-width: 260px;
-    }
-    
-    .weblead{
-        width: 75%;
-        margin: auto;
-    }
-}
-
-@media screen and (min-width:992px) and (orientation: portrait){
-    
-    .btn-intro{
-        margin-top: 1em;
-        display: block;
-    }
-  
-    h1{
-        margin-top: 10%;
-        font-size: 300%;
-    }
-    
-    h2{
-        font-size: 250%;
-    }
-    
-    h3{
-        font-size: 200%;
-    }
-    
-    i{
-        margin: 0.5% 0.5% 0.5% 0.5%;
+        width: 120%;
+        margin-top: -20%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 500px;
     }
     
     .box{
@@ -670,54 +721,6 @@ input:-ms-input-autofill{
         border: 0;
         background-color:rgb(255,255,255);
         border-radius: 50px;
-    }
-    
-    .intro-section{
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .dossier-section {
-        height: 100%; 
-        padding-top: 2%;
-    }
-    
-    .victories-section {
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .contact-section {
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .profilepic{
-        width: 50%;
-        margin: auto;
-        display: none;
-        position: fixed;
-        right: 0;
-        top: 0;
-        z-index: 10000;
-        border-radius: 400px;
-    }
-    
-    .profilethumb{
-        width: 70%;
-        margin-top: 0;
-        margin-left: 15%;
-        margin-right: 15%;
-        border-radius: 200px;
-        max-width: 100px;
-    }
-    
-    .thumbhover{
-        width: 95%;
-        margin-top: -10%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        max-width: 500px;
     }
     
     .weblead{
@@ -727,11 +730,6 @@ input:-ms-input-autofill{
 }
 
 @media screen and (min-width:992px) and (orientation: landscape){
-    
-    .btn-intro{
-        margin-top: 1em;
-        display: block;
-    }
   
     h1{
         margin-top: 10%;
@@ -748,6 +746,60 @@ input:-ms-input-autofill{
     
     i{
         margin: 0.5% 0.5% 0.5% 0.5%;
+    }
+    
+    .intro-section{
+        height: 100%;
+        padding-top: 2%;
+    }
+    
+    .dossier-section {
+        height: 100%; 
+        padding-top: 2%;
+    }
+    
+    .victories-section {
+        height: 100%;
+        padding-top: 2%;
+    }
+    
+    .contact-section {
+        height: 100%;
+        padding-top: 2%;
+    }
+    
+    .btn-intro{
+        margin-top: 1em;
+        display: block;
+    }
+    
+    .profilepic{
+        width: 50%;
+        margin: auto;
+        display: none;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: 10000;
+        border-radius: 400px;
+    }
+    
+    .profilethumb{
+        width: 80%;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 10%;
+        margin-right: 10%;
+        border-radius: 200px;
+        max-width: 200px;
+    }
+    
+    .thumbhover{
+        width: 120%;
+        margin-top: -20%;
+        margin-left: 0;
+        margin-right: 0;
+        max-width: 500px;
     }
     
     .box{
@@ -779,54 +831,6 @@ input:-ms-input-autofill{
         border: 0;
         background-color:rgb(255,255,255);
         border-radius: 50px;
-    }
-    
-    .intro-section{
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .dossier-section {
-        height: 100%; 
-        padding-top: 2%;
-    }
-    
-    .victories-section {
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .contact-section {
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .profilepic{
-        width: 50%;
-        margin: auto;
-        display: none;
-        position: fixed;
-        right: 0;
-        top: 0;
-        z-index: 10000;
-        border-radius: 400px;
-    }
-    
-    .profilethumb{
-        width: 70%;
-        margin-top: 0;
-        margin-left: 15%;
-        margin-right: 15%;
-        border-radius: 200px;
-        max-width: 100px;
-    }
-    
-    .thumbhover{
-        width: 95%;
-        margin-top: -10%;
-        margin-left: 2.5%;
-        margin-right: 2.5%;
-        max-width: 500px;
     }
     
     .weblead{
