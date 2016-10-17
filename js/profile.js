@@ -2,7 +2,7 @@
 /*global utils*/
 
 $(window).ready(function(){
-    
+    console.log(screen);
 });
 
 //jQuery to collapse the navbar on scroll

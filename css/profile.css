@@ -33,6 +33,17 @@ html{
     height: 100%;
 }
 
+section{
+    width: 100%;
+    height: 100%;
+    padding-top: 50px;
+}
+
+nav{
+    max-height: 50px;
+    margin: 0 !important;
+}
+
 h1{
     color: #e63d00;
     text-shadow: 3px 3px 1px #000000;
@@ -55,7 +66,9 @@ h3{
 }
 
 .btn-warning {
+    margin-top: 2%;
     background: rgba(230, 61, 0, 0.6);
+    display: block;
 }
 
 .form-control{
@@ -145,7 +158,30 @@ input:-ms-input-autofill{
     background: #000000;
 }
 
-@media screen and (min-width:768px){
+@media screen and (max-width:320px) and (orientation: portrait){
+  
+    h1{
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 150%;
+    }
+    
+    h2{
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 125%;
+    }
+    
+    h3{
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 1% 0 1% 0;
+        font-size: 100%;
+    }
+    
     .navbar{
         padding: 1px 0;
         -o-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -157,57 +193,106 @@ input:-ms-input-autofill{
     .top-nav-collapse{
         padding: 0;
     }
+    
+    .profilepic{
+        width: 90%;
+        margin: auto;
+        display: none;
+        position: fixed;
+        right: 5%;
+        top: 5%;
+        z-index: 10000;
+        border-radius: 400px;
+    }
+    
+    .profilethumb{
+        width: 60%;
+        margin-top: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 200px;
+        max-width: 75px;
+    }
+    
+    .thumbhover{
+        width: 90%;
+        margin-top: -15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 300px;
+    }
+    
+    .box{
+        display: none;
+        width: 70%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .preview{
+        display: block;
+        margin-top: 0.5em;
+    }
+    
+    .preview:hover + .box,.box:hover{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 15%;
+        z-index: 10000;
+    }
+    
+    .frame{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background-color:rgb(255,255,255);
+        border-radius: 50px;
+    }
+    
+    .weblead{
+        width: 90%;
+        margin: auto;
+    }
 }
 
-@media screen and (max-width:600px) and (orientation: portrait){
+@media screen and (max-width:320px) and (orientation: landscape){
   
     h1{
         padding: 0;
-        margin-top: 10%;
+        margin-top: 1%;
         margin-bottom: 1%;
-        font-size: 200%;
+        font-size: 150%;
     }
     
     h2{
         padding: 0;
         margin-top: 1%;
         margin-bottom: 1%;
-        font-size: 175%;
+        font-size: 125%;
     }
     
     h3{
         padding: 0;
-        margin: 0 0 10% 0;
-        font-size: 150%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 1% 0 1% 0;
+        font-size: 100%;
     }
     
-    i{
-        margin: 0.5% 0.5% 0.5% 0.5%;
+    .navbar{
+        padding: 1px 0;
+        -o-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
     
-    .intro-section{
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .dossier-section {
-        height: 95%; 
-        padding-top: 5%;
-    }
-    
-    .victories-section {
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .contact-section {
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .btn-intro{
-        margin-top: 0.5em;
-        display: block;
+    .top-nav-collapse{
+        padding: 0;
     }
     
     .profilepic{
@@ -275,53 +360,40 @@ input:-ms-input-autofill{
     }
 }
 
-@media screen and (max-width:600px) and (orientation: landscape){
-    
+@media screen and (min-width:321px) and (max-width:640px) and (orientation: portrait){
+  
     h1{
         padding: 0;
-        margin-top: 10%;
-        font-size: 200%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 150%;
     }
     
     h2{
         padding: 0;
-        font-size: 175%;
-        color: #e63d00;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 125%;
     }
     
     h3{
         padding: 0;
-        margin: 0 0 12% 0;
-        font-size: 150%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 1% 0 1% 0;
+        font-size: 100%;
     }
     
-    i{
-        margin: 0.5% 0.5% 0.5% 0.5%;
+    .navbar{
+        padding: 1px 0;
+        -o-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
     
-    .intro-section{
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .dossier-section {
-        height: 95%; 
-        padding-top: 5%;
-    }
-    
-    .victories-section {
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .contact-section {
-        height: 95%;
-        padding-top: 5%;
-    }
-    
-    .btn-intro{
-        margin-top: 0.5em;
-        display: block;
+    .top-nav-collapse{
+        padding: 0;
     }
     
     .profilepic{
@@ -389,62 +461,49 @@ input:-ms-input-autofill{
     }
 }
 
-@media only screen and (min-width:601px) and (max-width:991px) and (orientation: portrait){
+@media screen and (min-width:321px)and (max-width:640px) and (orientation: landscape){
   
     h1{
-        margin-top: 10%;
         padding: 0;
-        font-size: 200%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 150%;
     }
     
     h2{
         padding: 0;
-        margin-top: 0;
-        font-size: 175%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 125%;
     }
     
     h3{
         padding: 0;
-        margin: 0 0 5% 0;
-        font-size: 150%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 1% 0 1% 0;
+        font-size: 100%;
     }
     
-    i{
-        margin: 0.5% 0.5% 0.5% 0.5%;
+    .navbar{
+        padding: 1px 0;
+        -o-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
     }
     
-    .intro-section{
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .dossier-section {
-        height: 100%; 
-        padding-top: 4%;
-    }
-    
-    .victories-section {
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .contact-section {
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .btn-intro{
-        margin-top: 0.5em;
-        display: block;
+    .top-nav-collapse{
+        padding: 0;
     }
     
     .profilepic{
-        width: 60%;
+        width: 90%;
         margin: auto;
         display: none;
         position: fixed;
-        right: 0;
-        top: 0;
+        right: 5%;
+        top: 5%;
         z-index: 10000;
         border-radius: 400px;
     }
@@ -452,7 +511,6 @@ input:-ms-input-autofill{
     .profilethumb{
         width: 60%;
         margin-top: 0;
-        margin-bottom: 0;
         margin-left: 20%;
         margin-right: 20%;
         border-radius: 200px;
@@ -460,10 +518,10 @@ input:-ms-input-autofill{
     }
     
     .thumbhover{
-        width: 100%;
+        width: 90%;
         margin-top: -15%;
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 5%;
+        margin-right: 5%;
         max-width: 300px;
     }
     
@@ -499,58 +557,134 @@ input:-ms-input-autofill{
     }
     
     .weblead{
-        width: 75%;
+        width: 90%;
         margin: auto;
     }
 }
 
-@media only screen and (min-width:601px) and (max-width:991px) and (orientation: landscape){
+@media only screen and (min-width:641px) and (max-width:1024px) and (orientation: portrait){
   
     h1{
-        margin-top: 10%;
         padding: 0;
-        font-size: 200%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 150%;
     }
     
     h2{
         padding: 0;
-        margin-top: 0;
-        font-size: 175%;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 125%;
     }
     
     h3{
         padding: 0;
-        margin: 0 0 5% 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 1% 0 1% 0;
+        font-size: 100%;
+    }
+    
+    .navbar{
+        padding: 1px 0;
+        -o-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+    
+    .top-nav-collapse{
+        padding: 0;
+    }
+    
+    .profilepic{
+        width: 90%;
+        margin: auto;
+        display: none;
+        position: fixed;
+        right: 5%;
+        top: 5%;
+        z-index: 10000;
+        border-radius: 400px;
+    }
+    
+    .profilethumb{
+        width: 60%;
+        margin-top: 0;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 200px;
+        max-width: 75px;
+    }
+    
+    .thumbhover{
+        width: 90%;
+        margin-top: -15%;
+        margin-left: 5%;
+        margin-right: 5%;
+        max-width: 300px;
+    }
+    
+    .box{
+        display: none;
+        width: 70%;
+        margin-top: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .preview{
+        display: block;
+        margin-top: 0.5em;
+    }
+    
+    .preview:hover + .box,.box:hover{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 15%;
+        z-index: 10000;
+    }
+    
+    .frame{
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        margin: 0;
+        border: 0;
+        background-color:rgb(255,255,255);
+        border-radius: 50px;
+    }
+    
+    .weblead{
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media only screen and (min-width:641px) and (max-width:1024px) and (orientation: landscape){
+  
+    h1{
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
         font-size: 150%;
     }
     
-    i{
-        margin: 0.5% 0.5% 0.5% 0.5%;
+    h2{
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 125%;
     }
     
-    .intro-section{
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .dossier-section {
-        height: 100%; 
-        padding-top: 4%;
-    }
-    
-    .victories-section {
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .contact-section {
-        height: 100%;
-        padding-top: 4%;
-    }
-    
-    .btn-intro{
-        margin-top: 0.5em;
-        display: block;
+    h3{
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 1% 0 1% 0;
+        font-size: 100%;
     }
     
     .profilepic{
@@ -619,48 +753,28 @@ input:-ms-input-autofill{
     }
 }
 
-@media screen and (min-width:992px) and (orientation: portrait){
+@media screen and (min-width:1025px) and (orientation: portrait){
   
     h1{
-        margin-top: 10%;
-        font-size: 250%;
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 300%;
     }
     
     h2{
-        font-size: 200%;
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 250%;
     }
     
     h3{
-        font-size: 175%;
-    }
-    
-    i{
-        margin: 0.5% 0.5% 0.5% 0.5%;
-    }
-    
-    .intro-section{
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .dossier-section {
-        height: 100%; 
-        padding-top: 2%;
-    }
-    
-    .victories-section {
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .contact-section {
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .btn-intro{
-        margin-top: 1em;
-        display: block;
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 1% 0 1% 0;
+        font-size: 150%;
     }
     
     .profilepic{
@@ -687,9 +801,9 @@ input:-ms-input-autofill{
     .thumbhover{
         width: 120%;
         margin-top: -20%;
-        margin-left: 0;
+        margin-left: -20%;
         margin-right: 0;
-        max-width: 500px;
+        max-width: 400px;
     }
     
     .box{
@@ -729,48 +843,28 @@ input:-ms-input-autofill{
     }
 }
 
-@media screen and (min-width:992px) and (orientation: landscape){
+@media screen and (min-width:1025px) and (orientation: landscape){
   
     h1{
-        margin-top: 10%;
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
         font-size: 300%;
     }
     
     h2{
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
         font-size: 250%;
     }
     
     h3{
-        font-size: 200%;
-    }
-    
-    i{
-        margin: 0.5% 0.5% 0.5% 0.5%;
-    }
-    
-    .intro-section{
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .dossier-section {
-        height: 100%; 
-        padding-top: 2%;
-    }
-    
-    .victories-section {
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .contact-section {
-        height: 100%;
-        padding-top: 2%;
-    }
-    
-    .btn-intro{
-        margin-top: 1em;
-        display: block;
+        padding: 0;
+        margin-top: 1%;
+        margin-bottom: 1%;
+        margin: 1% 0 1% 0;
+        font-size: 150%;
     }
     
     .profilepic{
@@ -797,9 +891,9 @@ input:-ms-input-autofill{
     .thumbhover{
         width: 120%;
         margin-top: -20%;
-        margin-left: 0;
+        margin-left: -20%;
         margin-right: 0;
-        max-width: 500px;
+        max-width: 400px;
     }
     
     .box{
