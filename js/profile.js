@@ -32,6 +32,10 @@ $(function(){
     });
 });
 
+$(".profilethumb").click(function(){
+  $(".profilethumb").toggleClass('thumbhover');
+});
+
 $(".profilethumb").mouseenter(function(){
   $(".profilethumb").addClass('thumbhover');
 });
