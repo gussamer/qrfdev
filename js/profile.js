@@ -3,6 +3,7 @@
 
 $(window).ready(function(){
     console.log(screen);
+    $('#victorycarousel').carousel();
 });
 
 //jQuery to collapse the navbar on scroll
@@ -31,6 +32,7 @@ $(function(){
         event.preventDefault();
     });
 });
+
 
 $(".profilethumb").click(function(){
   $(".profilethumb").toggleClass('thumbhover');
