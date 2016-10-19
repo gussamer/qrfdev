@@ -22,7 +22,7 @@ app.get('/frontends', function(req, res){
   });
 });
 
-app.get('/:view', function(req, res){
+app.get('/frontends/:view', function(req, res){
     res.render(req.params.view);
 });
 
