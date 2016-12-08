@@ -23,7 +23,8 @@ app.get('/frontends', function(req, res){
 });
 
 app.get('/frontends/:view', function(req, res){
-    res.render(req.params.view);
+    console.log(req.params.view);
+    res.render(req.params.view+'.pug');
 });
 
 app.listen(lp, function(){
