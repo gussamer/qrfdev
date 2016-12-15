@@ -57,6 +57,18 @@ app.get('/backends/timestamp/:date', function (req, res) {
     res.json(retobj);
 });
 
+app.get('/backends/rhpms', function (req, res) {
+  var osreg = /[^\(]*\(([^\)]*)\)?/;
+  var langreg = /([^,]*)/;
+  console.log(req.headers);
+  var retobj = {
+    "ipaddress":req.headers['x-forwarded-for'] || req.connection.remoteAddress
+    ,"language":langreg.exec(req.headers["accept-language"])[1]
+    ,"software":osreg.exec(req.headers["user-agent"])[1]
+  };
+  res.json(retobj);
+});
+
 app.listen(lp, function(){
     console.log('Example app listening on port '+lp+'!');
 });
