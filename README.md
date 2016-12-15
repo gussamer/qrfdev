@@ -1,4 +1,6 @@
 # qrfdev
 A profile page for Quick Reactionary Force Developers
 
-https://qrfdev.herokuapp.com
+North America: https://qrfdev.herokuapp.com
+
+Europe: https://qrfdev-eu.herokuapp.com
