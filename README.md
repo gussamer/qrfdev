@@ -1,6 +1,6 @@
 # qrfdev
 
-A profile page for Quick Reactionary Force Developers
+## Profile page for Quick Reactionary Force Developers
 
 Deployed on Heroku
 
