@@ -139,38 +139,38 @@ h4{
 
 .intro-section{
     text-align: center;
-    background: url(../assets/img/intro1600.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-image: url(../assets/img/intro1600.jpg);
 }
 
 .dossier-section {
     text-align: center;
-    background: url(../assets/img/about1600crop.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-image: url(../assets/img/about1600crop.jpg);
 }
 
 .victories-section {
     text-align: center;
-    background: url(../assets/img/portfolio1600.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-image: url(../assets/img/portfolio1600.jpg);
 }
 
 .contact-section {
     text-align: center;
-    background: url(../assets/img/contact1600.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    background-image: url(../assets/img/contact1600.jpg);
 }
 
 .profilethumb{
