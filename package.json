@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/gussamer/qrfdev#readme",
   "engines": {
-    "node": "^4.8.4"
+    "node": "12.x"
   },
   "dependencies": {
     "express": "^4.17.1",
